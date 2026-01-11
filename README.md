@@ -137,6 +137,95 @@ based on prior ground-truth training.
 
 ---
 
+### Computer Vision–Based Sports Analytics & Broadcast Perception
+Enablement supporting large-scale **computer vision models trained on image
+and video data from professional sports environments**, designed to power
+real-time analytics, visualization, and predictive insights.
+
+These systems relied on **millions of still images, recorded games, and live
+video streams** to train models capable of understanding complex, fast-moving
+scenes involving players, officials, equipment, and field geometry.
+
+---
+
+### Visual Perception & Annotation Scope
+Model training focused on comprehensive visual understanding of the game
+environment, including:
+
+- Player identification and role classification
+- Recognition of game actions (e.g., runs, passes, kicks, catches)
+- Detection of play boundaries, start/stop events, and transitions
+- Identification of field layout and geometry:
+  - Yard lines (single-yard and five-yard increments)
+  - End zones and boundaries
+  - Hash marks and spatial reference points
+- Classification of participants and entities:
+  - Players, officials, staff
+  - Field equipment and markers
+  - Spectators and non-play actors
+
+This enabled models to learn **both spatial structure and temporal flow**
+of live gameplay.
+
+---
+
+### Video-Based Computer Vision & Temporal Labeling
+Enablement included **video annotation and temporal labeling**, such as:
+
+- Marking the start and end of plays
+- Classifying play types and movement sequences
+- Tracking player and object motion across frames
+- Supporting downstream analytics and visualization pipelines
+
+Over time, trained models progressed to **automatically identifying and
+labeling entities and actions**, generating bounding boxes and overlays
+directly in video outputs.
+
+---
+
+### Global Data Enablement & Quality Assurance
+My role centered on **data enablement, training, and quality governance**, including:
+
+- Training distributed data annotation teams across multiple regions
+- Teaching foundational domain knowledge required for accurate labeling
+  (game rules, roles, field design, and play structure)
+- Establishing annotation standards and consistency guidelines
+- Training QA teams to evaluate data integrity, accuracy, and completeness
+- Performing quality audits on labeled data batches
+- Retraining annotators and QA reviewers when data quality thresholds
+  were not met
+
+Only **validated, high-integrity data batches** were approved for handoff
+to engineering teams for model retraining and iteration.
+
+---
+
+### Iterative Model Expansion
+As with other computer vision systems, model capability improved through
+**incremental expansion of labeled data**, including:
+
+- Additional play types and formations
+- Expanded role and entity classifications
+- Increased diversity of visual conditions and camera angles
+
+Each iteration strengthened model generalization and accuracy, enabling
+more reliable real-time perception and analytics.
+
+---
+
+### Operational Impact
+These computer vision systems enabled:
+
+- Automated visual understanding of complex sports environments
+- Scalable analytics across massive volumes of video data
+- Real-time visual overlays and perception-driven outputs
+- Reduced manual analysis through ML-powered detection and classification
+
+This work supported **broadcast-grade visualization and predictive analytics**
+through robust, high-quality computer vision pipelines.
+
+---
+
 ### Iterative Model Expansion & Validation
 As with other CV and ML systems, model accuracy was improved through
 **incremental expansion of labeled data**, including:
@@ -165,29 +254,32 @@ and autonomous system learning**.
 ---
 
 ### Operational Impact
-These systems enabled:
 
-- Improved visibility into human and machine processes
-- Identification of inefficiencies and error patterns
-- Enhanced autonomous navigation context
-- Reduced manual review through automated visual classification
+### Operational Impact
+Across robotics, computer vision, sentiment analysis, and public-sector enablement
+systems, these ML and CV initiatives delivered measurable, enterprise-level impact.
 
-The result was a more **data-driven, scalable approach to operational analysis**
-using computer vision.
+Key outcomes included:
 
----
+- Transitioning models from **manual annotation workflows to self-identifying,
+  auto-labeling perception systems**, improving scalability and reducing human
+  dependency over time
+- Significantly reducing **manual review and triage workloads** by automating
+  classification, prioritization, and visual detection tasks
+- Improving **risk identification and response speed** in safety-, workforce-,
+  and operations-related use cases
+- Enabling **data-driven decision-making** through consistent, high-integrity
+  ground-truth datasets and analytics feedback loops
+- Strengthening **model reliability and generalization** through disciplined QA,
+  validation, and iterative retraining cycles
+- Supporting **real-time and near-real-time perception outputs** for complex,
+  dynamic environments
+- Increasing confidence in **autonomous and ML-assisted systems** by ensuring
+  high-quality training data and operationally realistic enablement
 
-### Public Sector, National Security & High-Security Environments
-AI and ML enablement supporting **public-sector, defense, and national security**
-stakeholders, including:
-
-- Secure cloud environments
-- High-assurance training delivery
-- Enablement for certified data analysts, engineers, and technical leaders
-- Learning systems designed for use within **SCIF and restricted-access contexts**
-
-All enablement is designed to meet **strict security, compliance, and access controls**
-while maintaining technical depth.
+Collectively, these systems enabled organizations to **scale intelligent automation,
+reduce operational friction, and deploy AI solutions with greater trust, safety,
+and effectiveness**.
 
 ---
 
