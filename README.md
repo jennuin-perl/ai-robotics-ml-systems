@@ -209,7 +209,7 @@ As with other computer vision systems, model capability improved through
 - Increased diversity of visual conditions and camera angles
 
 Each iteration strengthened model generalization and accuracy, enabling
-more reliable real-time perception and analytics.
+more reliable real-time perception and analytics (predictive analytics).
 
 ---
 
