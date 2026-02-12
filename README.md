@@ -7,7 +7,7 @@ Jennifer Pearl Tarazona
 ## Overview
 This repository documents **sanitized, non-proprietary system-level work**
 focused on **AI enablement, machine learning lifecycle support, robotics,
-computer vision, and cloud-based learning architectures**.
+computer vision, and cloud-based learning architectures across multiple domains**.
 
 The content reflects how large-scale technical teams are enabled to
 **build, train, fine-tune, deploy, test, and operationalize ML models**
@@ -18,15 +18,31 @@ or confidential program details are included.
 
 ---
 
+The projects described here span:
+
+- Robotics perception and autonomous navigation
+- Computer vision–based spatial modeling
+- Video-based action recognition
+- Sentiment analysis and NLP classification
+- Human motion and risk assessment models
+- Public sector and high-security AI enablement environments
+
+These systems relied on millions of annotated images and video sequences
+to train, refine, and operationalize machine learning models in dynamic,
+real-world environments.
+
+---
+
 ## Systems & Domains Covered
 
 ### Robotics Systems Enablement
 Enablement and learning architectures supporting intelligent robotic systems, including:
-
 - **Robotic arms** (manipulation, pick-and-place, controlled movement)
-- **Autonomous mobile robots**
-- **High-speed sortation systems**
-- **Robotics perception and sensor-driven workflows**
+- **Autonomous mobile robots and delivery vehicles**
+- **High-speed sortation and material handling systems**
+- **Computer vision–based perception for navigation and obstacle detection**
+- **Ground-plane footprint modeling and spatial recognition**
+- **Heat map–driven facility and route mapping**
 
 Focus areas include safe experimentation, model iteration, deployment readiness,
 and cross-functional understanding between engineering, data science, and operations.
@@ -387,6 +403,8 @@ real-time visual outputs with reduced manual intervention.
 ### Role in the ML Lifecycle
 My role focused on **CV data enablement and quality assurance**, including:
 
+- Iterative retraining and fine-tuning through expanded labeled datasets
+- Dataset refinement to improve model precision and generalization
 - Training data annotators and data miners on labeling standards
 - Establishing annotation consistency and validation criteria
 - Performing QA checks on labeled data batches
@@ -459,6 +477,32 @@ All content in this repository is **generalized and sanitized**.
 
 This repository exists solely to demonstrate **systems thinking, technical literacy,
 and AI/ML enablement approach**.
+
+---
+
+# AI, Robotics & Machine Learning Systems Portfolio
+Jennifer Tarazona
+
+## Introduction
+
+This portfolio documents sanitized, non-proprietary system-level work
+supporting large-scale artificial intelligence, computer vision,
+robotics perception, and machine learning initiatives across multiple domains.
+
+---
+
+## Approach
+
+Across all systems, my approach centered on:
+
+- Treating training data as critical infrastructure
+- Aligning annotation standards with model objectives
+- Supporting iterative retraining cycles
+- Bridging domain knowledge, data operations, and engineering teams
+- Strengthening model reliability through disciplined quality control
+
+The result was improved model performance, reduced manual rework,
+and scalable AI systems grounded in high-integrity datasets.
 
 ---
 
