@@ -254,8 +254,6 @@ and autonomous system learning**.
 ---
 
 ### Operational Impact
-
-### Operational Impact
 Across robotics, computer vision, sentiment analysis, and public-sector enablement
 systems, these ML and CV initiatives delivered measurable, enterprise-level impact.
 
