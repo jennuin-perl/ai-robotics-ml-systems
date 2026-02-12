@@ -172,8 +172,6 @@ The objective of footprint recognition was to accurately identify and estimate
 the **portion of an object in contact with the floor**, including areas that
 may be partially occluded or not fully visible in the scene.
 
----
-
 ### Visual Annotation & Object Categorization
 Model training incorporated large-scale image and video annotation workflows,
 including bounding box labeling and object classification for:
@@ -189,8 +187,6 @@ including bounding box labeling and object classification for:
 Special attention was required for visually similar objects
 (e.g., equipment types with overlapping structural features),
 requiring annotation standards and classification refinement.
-
----
 
 ### Spatial Recognition & Facility Mapping
 Annotation efforts supported:
@@ -209,6 +205,72 @@ enabling:
 - Improved path planning
 - Reduced collision risk
 - Enhanced situational awareness within dynamic environments
+
+---
+### Autonomous Delivery Vehicle Perception & Environment Modeling (Autonomous Vehicle Robotic Delivery)
+
+Enablement supporting computer vision and spatial recognition systems
+for sidewalk-based autonomous delivery vehicles operating in residential
+and urban environments.
+
+The initiative focused on training perception models to understand
+real-world outdoor environments using **millions of annotated images**
+captured across diverse neighborhoods and small-city downtown areas.
+
+### Object Detection & Environmental Annotation
+
+Large-scale annotation workflows were used to label and categorize:
+
+- Trees and vegetation
+- Driveways and sidewalks
+- Streets and intersections
+- Crosswalks and pedestrian zones
+- Parked and moving vehicles
+- Traffic signs and signals
+- Mailboxes and delivery-relevant landmarks
+- Pedestrians and pets
+- Urban obstacles and terrain variations
+
+Bounding boxes, spatial classification, and scene segmentation
+supported model training for safe navigation and obstacle awareness.
+
+### Spatial Recognition & Heat Map Modeling
+
+Annotation efforts contributed to:
+
+- Heat map–based facility and route mapping
+- Recognition of safe traversal paths
+- Intersection detection and stopping logic awareness
+- Obstacle avoidance and rerouting behavior
+
+These datasets strengthened the model’s ability to:
+
+- Identify what was directly in front of the vehicle
+- Recognize when to stop or yield
+- Navigate dynamic pedestrian environments
+- Adapt to varied lighting and terrain conditions
+
+### ML Training & Iterative Refinement
+
+Training pipelines supported:
+
+- Submission of validated annotation batches for model retraining
+- Expansion of object taxonomies over time
+- Improved generalization across geographic locations
+- Continuous refinement of detection accuracy
+
+Models progressed from heavy human annotation reliance
+to improved automated object detection and environmental awareness.
+
+### Broader Impact
+
+This work supported the development of fully electric,
+autonomous last-mile delivery systems designed to operate safely
+within pedestrian environments.
+
+The initiative demonstrated how large-scale computer vision
+and spatial modeling can power sustainable, autonomous delivery
+technologies.
 
 ---
 
