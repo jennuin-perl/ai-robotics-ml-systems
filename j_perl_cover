@@ -1,0 +1,59 @@
+# AI, Robotics & Machine Learning Systems Portfolio
+Cover
+Jennifer Tarazona
+
+## Introduction
+
+This portfolio documents sanitized, non-proprietary system-level work
+supporting large-scale artificial intelligence, computer vision,
+robotics perception, and machine learning initiatives across multiple domains.
+
+The projects described here span:
+
+- Robotics perception and autonomous navigation
+- Computer vision–based spatial modeling
+- Video-based action recognition
+- Sentiment analysis and NLP classification
+- Human motion and risk assessment models
+- Public sector and high-security AI enablement environments
+
+These systems relied on millions of annotated images and video sequences
+to train, refine, and operationalize machine learning models in dynamic,
+real-world environments.
+
+---
+
+## My Role in the ML Lifecycle
+
+My responsibility across these initiatives focused on **AI and ML data enablement, quality governance, and operational management**.
+
+Specifically, I:
+
+- Trained data analysts and engineers on domain knowledge and annotation standards
+- Designed and enforced labeling taxonomies and consistency frameworks
+- Managed large-scale annotation workflows across distributed teams
+- Trained QA teams to validate data batches against defined integrity thresholds
+- Performed quality audits to ensure dataset accuracy, completeness, and consistency
+- Approved validated datasets for handoff to engineering teams for model retraining and deployment
+
+If data integrity fell below established quality benchmarks, I led retraining efforts
+with analysts and QA reviewers, reworked datasets, and ensured corrections were made
+before allowing progression into the model retraining pipeline.
+
+This governance ensured that only high-confidence, validated ground-truth data
+was used to train perception and classification systems.
+
+---
+
+## Approach
+
+Across all systems, my approach centered on:
+
+- Treating training data as critical infrastructure
+- Aligning annotation standards with model objectives
+- Supporting iterative retraining cycles
+- Bridging domain knowledge, data operations, and engineering teams
+- Strengthening model reliability through disciplined quality control
+
+The result was improved model performance, reduced manual rework,
+and scalable AI systems grounded in high-integrity datasets.
