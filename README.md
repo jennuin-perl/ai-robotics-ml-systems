@@ -163,6 +163,74 @@ outputs from live video feeds.
 
 ---
 
+### Computer Vision–Based Footprint Definition & Spatial Recognition
+Enablement supporting computer vision models trained using AWS SageMaker
+to perform **ground-plane footprint definition and spatial object recognition**
+within operational facility environments.
+
+The objective of footprint recognition was to accurately identify and estimate
+the **portion of an object in contact with the floor**, including areas that
+may be partially occluded or not fully visible in the scene.
+
+---
+
+### Visual Annotation & Object Categorization
+Model training incorporated large-scale image and video annotation workflows,
+including bounding box labeling and object classification for:
+
+- Pallet jacks and material handling equipment
+- Autonomous mobile robots and bin-moving robots
+- Pallets, bins, and packages
+- Ground markings (e.g., floor tape and 5S indicators)
+- Personnel and safety identifiers
+- High-surface-area objects affecting floor coverage
+- Facility infrastructure and obstruction zones
+
+Special attention was required for visually similar objects
+(e.g., equipment types with overlapping structural features),
+requiring annotation standards and classification refinement.
+
+---
+
+### Spatial Recognition & Facility Mapping
+Annotation efforts supported:
+- Ground-plane footprint estimation
+- Object-floor contact modeling
+- Spatial heat map generation of facility layouts
+- Navigation-aware labeling for robotics perception
+
+Heat maps of the facility environment were used to strengthen model understanding
+of traffic patterns, obstacle density, and spatial relationships.
+
+These datasets supported perception systems used by autonomous mobile robots,
+enabling:
+
+- Obstacle detection and avoidance
+- Improved path planning
+- Reduced collision risk
+- Enhanced situational awareness within dynamic environments
+
+---
+
+### ML Lifecycle & Model Iteration
+Training pipelines leveraged SageMaker-based workflows to:
+
+- Submit validated data batches for model retraining
+- Improve recognition accuracy across varied lighting and occlusion conditions
+- Expand object taxonomy over time
+- Refine bounding box precision and floor-contact inference
+
+As models matured, they progressed from manual annotation reliance
+to more accurate automated footprint recognition and object detection outputs.
+
+---
+
+### Operational Impact
+This work strengthened spatial perception capabilities within robotics systems,
+supporting safer navigation, improved facility mapping, and scalable
+computer vision–driven environment awareness.
+
+
 ### Visual Perception & Annotation Scope
 Model training focused on comprehensive visual understanding of the game
 environment, including:
