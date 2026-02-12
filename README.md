@@ -139,12 +139,27 @@ based on prior ground-truth training.
 
 ### Computer Vision–Based Sports Analytics & Broadcast Perception
 Enablement supporting large-scale **computer vision models trained on image
-and video data from professional sports environments**, designed to power
+and video data from professional sports environments using AWs Sagemaker**, designed to power
 real-time analytics, visualization, and predictive insights.
 
-These systems relied on **millions of still images, recorded games, and live
-video streams** to train models capable of understanding complex, fast-moving
-scenes involving players, officials, equipment, and field geometry.
+These systems relied on **millions of still images and annotated video sequences**,
+including recorded games and live streams, to train models capable of understanding
+complex, fast-moving scenes involving players, officials, equipment, and field geometry.
+
+Model development incorporated:
+
+- Large-scale **image and video annotation workflows**
+- Temporal labeling of play start/stop events and action sequences
+- Bounding box creation and object classification
+- Field geometry mapping and spatial reference detection
+- Iterative dataset expansion to improve generalization
+
+Training and retraining cycles were supported through **SageMaker-based ML pipelines**,
+with validated data batches submitted for model refinement and evaluation.
+
+Over time, models progressed from manual annotation to **automated detection and
+self-identifying bounding boxes**, generating real-time visual overlays and structured
+outputs from live video feeds.
 
 ---
 
