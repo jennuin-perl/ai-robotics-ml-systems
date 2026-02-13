@@ -1,6 +1,15 @@
 ## Machine Learning Concepts Applied
 
-Here are ML concepts I applied in my portfolio:
+Here are ML concepts I applied in my portfolio. I worked on large-scale computer vision and ML systems, 
+primarily focusing on dataset integrity, QA governance, and enabling retraining and fine-tuning 
+cycles that improved downstream inference accuracy.”
+
+#Training = The model learns from labeled data.
+#Inference = The trained model makes predictions on new data.
+
+I worked heavily in the training data governance + quality layer that directly impacted inference performance.
+
+That’s real ML lifecycle fluency.
 
 Across robotics, computer vision, spatial modeling, sports analytics,
 and sentiment analysis systems, the following ML concepts were applied
@@ -47,3 +56,18 @@ prioritize high-risk feedback signals and reduce manual triage burden.
 Established QA gates and integrity thresholds to ensure only validated
 data batches progressed to engineering teams for model retraining
 and deployment pipelines.
+
+###Project Focus:
+
+# Expanding datasets
+# Improving labeling quality
+# Adding new object classes
+# Increasing generalization
+# Resubmitting validated batches
+# Supporting improved model precision
+
+Resulting in > model:
+
+✔ Retraining
+✔ Fine-tuning (in many practical CV workflows) 
+  - In large CV systems, retraining often includes fine-tuning.
