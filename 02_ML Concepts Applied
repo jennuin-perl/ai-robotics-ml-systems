@@ -57,7 +57,8 @@ Established QA gates and integrity thresholds to ensure only validated
 data batches progressed to engineering teams for model retraining
 and deployment pipelines.
 
-###Project Focus:
+###Retraining vs Fine Tuning models
+Project Focus:
 
 # Expanding datasets
 # Improving labeling quality
@@ -71,3 +72,31 @@ Resulting in > model:
 ✔ Retraining
 ✔ Fine-tuning (in many practical CV workflows) 
   - In large CV systems, retraining often includes fine-tuning.
+
+###The ML Lifecycle
+
+There are two major phases:
+
+Training (Learning Phase)
+Inference (Prediction Phase)
+
+## Training Phase
+This is when: 
+# You feed the model labeled data
+# The model adjusts internal weights
+# It “learns” patterns from the dataset
+# Performance improves through retraining or fine-tuning
+
+This happens in:
+# SageMaker training jobs
+# Offline model development environments
+# Iterative retraining cycles
+This is where your validated data batches were used.
+
+## Inference (Prediction Phase)
+This is when:
+# The trained model is deployed
+# It receives NEW unseen data
+# It makes predictions
+# It outputs classifications, bounding boxes, probabilities
+No learning happens here. It is using what it already learned.
