@@ -1,0 +1,49 @@
+## Machine Learning Concepts Applied
+
+Here are ML concepts I applied in my portfolio:
+
+Across robotics, computer vision, spatial modeling, sports analytics,
+and sentiment analysis systems, the following ML concepts were applied
+through data enablement, governance, and lifecycle management:
+
+### Supervised Learning
+Large-scale labeled datasets were created to support supervised learning
+pipelines, enabling models to learn from validated ground-truth data.
+
+### Computer Vision Object Detection
+Applied object detection principles involving classification and bounding
+box localization for humans, equipment, infrastructure, vehicles,
+field geometry, and environmental objects.
+
+### Video-Based Temporal Labeling
+Supported action recognition and event segmentation by annotating
+start/stop times, movement sequences, and temporal transitions in video data.
+
+### Dataset Curation & Ground-Truth Integrity
+Designed annotation standards and QA thresholds to ensure high-confidence,
+accurate training datasets prior to model retraining.
+
+### Iterative Model Retraining & Fine-Tuning
+Enabled incremental dataset expansion to improve generalization,
+precision, and object taxonomy coverage through retraining cycles.
+
+### Human-in-the-Loop ML Systems
+Supported ML workflows where human validation strengthened model accuracy
+before progression into automated inference stages.
+
+### Inference & Automated Detection
+Contributed to systems that transitioned from manual annotation dependence
+to automated object detection and classification during model inference.
+
+### Spatial Recognition & Mapping
+Supported models that learned environmental context, ground-plane footprint
+estimation, obstacle detection, and navigation-aware spatial awareness.
+
+### Risk & Priority Classification
+Enabled NLP-based sentiment and classification models to automatically
+prioritize high-risk feedback signals and reduce manual triage burden.
+
+### Model Governance & Quality Control
+Established QA gates and integrity thresholds to ensure only validated
+data batches progressed to engineering teams for model retraining
+and deployment pipelines.
